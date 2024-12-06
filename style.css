@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100;
+    background-image: url(happy3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#box1{
+    color: white;
+}
+#box2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#box21{
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 10%;
+
+}
+#box22{
+    position: relative;
+    color: white;
+    background-color: green;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 10%;
+}
+#quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
